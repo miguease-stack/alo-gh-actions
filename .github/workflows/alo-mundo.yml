@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Ecoar Alô Mundo
+    - name: echo Alô Mundo
       run: acho "Alô Mundo"
