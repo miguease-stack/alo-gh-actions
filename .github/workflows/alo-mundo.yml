@@ -9,4 +9,4 @@ jobs:
 
     steps:
     - name: echo Alô Mundo
-      run: acho "Alô Mundo"
+      run: echo "Alô Mundo"
