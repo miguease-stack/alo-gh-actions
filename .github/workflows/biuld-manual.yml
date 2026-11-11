@@ -1,0 +1,12 @@
+name: testes automatizados
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:  
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do codigo
+        uses: actions/checkout@v2
